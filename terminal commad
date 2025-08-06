@@ -1,0 +1,6 @@
+mkdir registration-form
+cd registration-form
+git init
+touch index.html style.css
+git add .
+git commit -m "Initial project structure with HTML and CSS files"
