@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <p class="subtitle">Please fill out this form with the required information</p>
+
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName">
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="password">Create Password:</label>
+      <input type="password" id="password" name="password">
+
+      <div class="radio-group">
+        <label><input type="radio" name="info" value="program"> Program</label>
+        <label><input type="radio" name="info" value="yearlevel"> Year Level</label>
+      </div>
+
+      <label class="checkbox">
+        <input type="checkbox" name="terms"> I accept the <a href="#">terms and conditions</a>
+      </label>
+
+      <p class="note">
+        The school ensures data protection by adhering to relevant privacy laws, applying encryption,
+        and requiring informed consent before any external sharing.
+      </p>
+
+      <label for="profile">Upload a profile picture:</label>
+      <input type="file" id="profile" name="profile">
+
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate">
+
+  <label for="specialization">Specialization?</label>
+      <select id="specialization" name="specialization">
+        <option value="">(select one)</option>
+        <option value="web">Web Development</option>
+        <option value="ai">AI</option>
+        <option value="data">Data Science</option>
+      </select>
+
+      <label for="bio">Bio:</label>
+      <textarea id="bio" name="bio" rows="3">I like coding on the beach...</textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
