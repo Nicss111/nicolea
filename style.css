@@ -60,4 +60,34 @@ body {
     margin-right: 10px;
   }
   
+  .checkbox {
+    margin-top: 15px;
+  }
   
+  .checkbox a {
+    color: #8ab4f8;
+    text-decoration: underline;
+  }
+  
+  .note {
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: #cfcfcf;
+  }
+  
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: #121223;
+  }
