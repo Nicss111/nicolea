@@ -27,6 +27,40 @@
       <label>Create Password:
         <input type="password" name="password" required />
       </label>
+
+      <!-- Insert inside <form> tag after password field -->
+  <label>
+    <input type="radio" name="category" value="Program" /> Program
+    <input type="radio" name="category" value="Year Level" /> Year Level
+  </label>
+
+  <label>
+    <input type="checkbox" required /> I accept the <a href="#">terms and conditions</a>
+  </label>
+
+  <label>Upload a profile picture:
+    <input type="file" name="profilePic" />
+  </label>
+
+  <label>Birthdate:
+    <input type="date" name="birthdate" />
+  </label>
+
+  <label>Specialization:
+    <select name="specialization">
+      <option value="">(select one)</option>
+      <option value="webdev">Web Development</option>
+      <option value="datasci">Data Science</option>
+      <option value="design">UI/UX Design</option>
+    </select>
+  </label>
+
+  <label>Bio:
+    <textarea placeholder="I like coding on the beach..."></textarea>
+  </label>
+
+  <input type="submit" value="Submit" />
+
     </form>
   </div>
 </body>
