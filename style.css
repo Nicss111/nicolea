@@ -1,103 +1,53 @@
+registration-form/
+│
+├── index.html
+└── style.css
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f2f5;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.login-container {
-    background: #000000;
-    padding: 2rem 3rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    width: 320px;
-    text-align: center;
-}
-
-.login-form h2 {
-    margin-bottom: 0.5rem;
-    color: #497245;
-}
-
-.login-form p {
-    margin-bottom: 1.5rem;
-    color: #3e523e;
-    font-size: 0.9rem;
-}
-
-.login-form label {
-    display: block;
-    text-align: left;
-    margin-bottom: 0.3rem;
-    font-weight: 600;
-    color: #3d8048;
-}
-
-.login-form input[type="text"],
-.login-form input[type="password"] {
+    padding: 50px;
+  }
+  
+  .form-container {
+    background-color: #121212;
+    padding: 30px;
+    border-radius: 10px;
     width: 100%;
-    padding: 10px 12px;
-    margin-bottom: 1.2rem;
-    border: 1.5px solid #59ac56;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.login-form input[type="text"]:focus,
-.login-form input[type="password"]:focus {
-    border-color: #007bff;
-    outline: none;
-}
-
-.login-form .toggle-password {
-    display: block;
-    text-align: right;
-    font-size: 0.85rem;
-    color: #007bff;
-    cursor: pointer;
-    user-select: none;
-    margin-bottom: 1.2rem;
-}
-
-.login-form button[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    background-color: #286e31;
+    max-width: 400px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  input, select, textarea {
+    padding: 8px;
+    margin-top: 5px;
     border: none;
     border-radius: 5px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 1.1rem;
+    background-color: #2c2c3e;
+    color: #fff;
+  }
+  
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: #000;
     cursor: pointer;
-    margin-bottom: 0.5rem;
-    transition: background-color 0.3s ease;
-}
-
-.login-form button[type="submit"]:hover {
-    background-color: #0056b3;
-    
-}
-
-.create-account {
-    display: inline-block;
-    margin: 0.5rem 1rem 0 1rem;
-    font-size: 0.9rem;
-    color: #007bff;
-    text-decoration: none;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.forgot-password:hover,
-.create-account:hover {
-    color: #0056b3;
-}
-
-.Forgot-password{
-    margin-top: 5px;
-}
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ccc;
+  }
+  
