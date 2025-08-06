@@ -51,3 +51,14 @@ body {
     background-color: #ccc;
   }
   
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #9dc9ff;
+    text-decoration: underline;
+  }
+  
